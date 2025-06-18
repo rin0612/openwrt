@@ -552,7 +552,7 @@ Signed-off-by: Heiko Stuebner <heiko@sntech.de>
 +		reg = <1>;
 +		reset-assert-us = <20000>;
 +		reset-deassert-us = <50000>;
-+		reset-gpios = <&gpio3 RK_PB7 GPIO_ACTIVE_LOW>;
++		reset-gpios = <&gpio3 RK_PB0 GPIO_ACTIVE_LOW>;
 +	};
 +};
 +
@@ -562,7 +562,7 @@ Signed-off-by: Heiko Stuebner <heiko@sntech.de>
 +		reg = <1>;
 +		reset-assert-us = <20000>;
 +		reset-deassert-us = <50000>;
-+		reset-gpios = <&gpio3 RK_PB0 GPIO_ACTIVE_LOW>;
++		reset-gpios = <&gpio3 RK_PB7 GPIO_ACTIVE_LOW>;
 +	};
 +};
 +
